@@ -1,0 +1,3 @@
+FROM /layerfiles/base
+
+Run docker-compose exec cypress bash /app/run+tests.sh
