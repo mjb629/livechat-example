@@ -1,0 +1,8 @@
+FROM /Layerfile
+
+SKIP REMAINING IF LAYERCI_BRANCH!=main
+
+SECRET ENV $slong_ssh_key
+RUN echo "$slong_ssh_key" | base64 -$ > -/myfile && choo@ 600 $slong_ssh_key
+
+RUN ssh -1
